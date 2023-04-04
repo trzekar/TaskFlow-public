@@ -28,10 +28,10 @@
         <!-- Desktop -->
         <div class="nav-container__nav-items">
           <div class="nav-container__nav-item">
-            <a href="" class="nav-link">Funkcje</a>
+            <a href="#functions" class="nav-link">Funkcje</a>
           </div>
           <div class="nav-container__nav-item">
-            <a href="" class="nav-link">Ceny</a>
+            <a href="#pricing" class="nav-link">Ceny</a>
           </div>
           <div class="nav-container__nav-item">
             <a href="" class="nav-link">Zaloguj się</a>
@@ -53,11 +53,11 @@
     <div class="mobile-nav">
       <div class="mobile-nav__items">
         <div class="mobile-nav__item">
-          <a href="#">Funkcje</a>
+          <a href="#functions">Funkcje</a>
           <div class="line"></div>
         </div>
         <div class="mobile-nav__item">
-          <a href="#">Ceny</a>
+          <a href="#pricing">Ceny</a>
           <div class="line"></div>
         </div>
         <div class="mobile-nav__item">
@@ -87,49 +87,483 @@
       </div>
     </div>
   </header>
-  <section class="users section-padding">
+  <main>
+    <section class="users section-padding">
+      <div class="wrapper">
+        <div class="users-boxes">
+          <div class="users-boxes__one">
+            <div class="user-box">
+              <img src="./dist/img/user-1.png " alt="" class="user-box__img">
+            </div>
+            <div class="user-box">
+              <img src="./dist/img/user-2.png " alt="" class="user-box__img">
+            </div>
+            <div class="user-box">
+              <img src="./dist/img/user-3.png " alt="" class="user-box__img">
+            </div>
+            <div class="user-box">
+              <img src="./dist/img/user-4.png " alt="" class="user-box__img">
+            </div>
+            <div class="user-box">
+              <img src="./dist/img/user-5.png " alt="" class="user-box__img">
+            </div>
+          </div>
+          <div class="users-boxes__two">
+            <div class="user-box">
+              <img src="./dist/img/user-1.png " alt="" class="user-box__img">
+            </div>
+            <div class="user-box">
+              <img src="./dist/img/user-2.png " alt="" class="user-box__img">
+            </div>
+            <div class="user-box">
+              <img src="./dist/img/user-3.png " alt="" class="user-box__img">
+            </div>
+            <div class="user-box">
+              <img src="./dist/img/user-4.png " alt="" class="user-box__img">
+            </div>
+            <div class="user-box">
+              <img src="./dist/img/user-5.png " alt="" class="user-box__img">
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+    <section class="preview section-padding">
+      <div class="wrapper">
+        <div class="preview__box">
+          <img src="./dist/img/app-preview.png" alt="" class="preview__img">
+        </div>
+      </div>
+    </section>
+    <section id="functions" class="info section-padding">
+      <div class="wrapper">
+        <div class="info__tabs">
+          <button class="info__tabs-box active" data-target="1">
+            <p class="paragraph">łatwośc użytkowania</p>
+            <div class="line"></div>
+          </button>
+          <button class="info__tabs-box" data-target="2">
+            <p class="paragraph">wszystko pod ręką</p>
+            <div class="line"></div>
+          </button>
+          <button class="info__tabs-box" data-target="3">
+            <p class="paragraph">organizacja czasu</p>
+            <div class="line"></div>
+          </button>
+        </div>
+        <div class="info__boxes">
+          <div class="info__box active" data-num="1">
+            <div class="info__box-text">
+              <h3 class="info-heading">Zacznij działać bez zbędnego stresu i frustracji</h3>
+              <p class="info-description paragraph">Dzięki intuicyjnemu interfejsowi, TaskFlow jest łatwy do obsługi dla
+                każdego,
+                niezależnie od doświadczenia z podobnymi narzędziami.</p>
+            </div>
+            <img src="./dist/img/info1.png" alt="" class="info__box-img">
+          </div>
+          <div class="info__box" data-num="2">
+            <div class="info__box-text">
+              <h3 class="info-heading">Miej wszystko pod kontrolą z TaskFlow</h3>
+              <p class="info-description paragraph">Dzięki TaskFlow masz dostęp do wszystkich swoich zadań i terminów w
+                jednym miejscu, co pozwala Ci na skuteczne zarządzanie swoim czasem.</p>
+            </div>
+            <img src="./dist/img/info2.png" alt="" class="info__box-img">
+          </div>
+          <div class="info__box" data-num="3">
+            <div class="info__box-text">
+              <h3 class="info-heading">Oszczędź swój czas i popraw produktywność</h3>
+              <p class="info-description paragraph">TaskFlow pozwala na skuteczne planowanie swoich działań i osiąganie
+                celów poprzez zorganizowanie swojego czasu i zadań w sposób, który odpowiada Twoim potrzebom.</p>
+            </div>
+            <img src="./dist/img/info3.png" alt="" class="info__box-img">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="testimonials" class="testimonials section-padding">
+      <div class="wrapper">
+        <div class="section-title">
+          <h2 class="section-title__heading">Sprawdź opinie naszych klientów</h2>
+          <p class="section-title__description paragraph">92% naszych klientów uważa, że nie zamieniłoby naszej
+            aplikacji na żadną inną</p>
+        </div>
+
+        <div class="testimonials__boxes">
+          <div class="testimonials__box" data-on-mobile="true">
+            <div class="testimonials__box-name">
+              <img src="./dist/img/testimonials-img1.png" alt="" class="user-image">
+              <div class="user-name">
+                <p class="name">Krzysztof Majewski</p>
+                <p class="job">UX Designer w Mochitooo</p>
+              </div>
+            </div>
+            <p class="testimonials__box-text paragraph">
+              Używam TaskFlow już od kilku miesięcy i nie wyobrażam sobie pracy bez niego. To narzędzie pomaga mi
+              organizować mój czas i pracować bardziej skutecznie.
+            </p>
+          </div>
+          <div class="testimonials__box" data-on-mobile="true">
+            <div class="testimonials__box-name">
+              <img src="./dist/img/testimonials-img5.png" alt="" class="user-image">
+              <div class="user-name">
+                <p class="name">Piotrk Nowakowski</p>
+                <p class="job">Business Developer w SalesNinja</p>
+              </div>
+            </div>
+            <p class="testimonials__box-text paragraph">
+              Jestem bardzo zadowolony z TaskFlow. Dzięki niemu moja praca jest bardziej produktywna i efektywna. Cenię
+              sobie przede wszystkim możliwość delegowania zadań do członków zespołu - to pozwala mi skupić się na
+              najważniejszych projektach i osiągać cele. Dodatkowo, łatwo dodać nowe zadanie i monitorować postępy.
+            </p>
+          </div>
+          <div class="testimonials__box" data-on-mobile="true">
+            <div class="testimonials__box-name">
+              <img src="./dist/img/testimonials-img4.png" alt="" class="user-image">
+              <div class="user-name">
+                <p class="name">Julita Świerczewska</p>
+                <p class="job">Lead Product Designer w SOFTers</p>
+              </div>
+            </div>
+            <p class="testimonials__box-text paragraph">
+              Nie wyobrażam sobie pracy bez TaskFlow - pomaga mi utrzymać pełen porządek i kontrolę nad wszystkimi moimi
+              zadaniami."
+            </p>
+          </div>
+          <div class="testimonials__box" data-on-mobile="false">
+            <div class="testimonials__box-name">
+              <img src="./dist/img/testimonials-img2.png" alt="" class="user-image">
+              <div class="user-name">
+                <p class="name">Marcin Walasik</p>
+                <p class="job">CEO BMW</p>
+              </div>
+            </div>
+            <p class="testimonials__box-text paragraph">
+              TaskFlow to rewelacyjna aplikacja, która pomaga mi skutecznie zarządzać moim czasem i zadaniami. Jestem
+              bardzo zadowolona z automatycznego sortowania zadań, które pomaga mi skupić się na najważniejszych
+              zadaniach.
+            </p>
+          </div>
+          <div class="testimonials__box not-in-medium" data-on-mobile="false">
+            <div class="testimonials__box-name">
+              <img src="./dist/img/testimonials-img7.png" alt="" class="user-image">
+              <div class="user-name">
+                <p class="name">Joanna Witkowska</p>
+                <p class="job">Content Creator w StarMedia</p>
+              </div>
+            </div>
+            <p class="testimonials__box-text paragraph">
+              TaskFlow jest świetnym narzędziem dla każdego, kto potrzebuje pomocy w zarządzaniu zadaniami zespołu.
+            </p>
+          </div>
+          <div class="testimonials__box" data-on-mobile="false">
+            <div class="testimonials__box-name">
+              <img src="./dist/img/testimonials-img3.png" alt="" class="user-image">
+              <div class="user-name">
+                <p class="name">Justyna Karpińska</p>
+                <p class="job">Sales Manager w SLS</p>
+              </div>
+            </div>
+            <p class="testimonials__box-text paragraph">
+              TaskFlow to narzędzie, które pomaga mi zapanować nad moim czasem i pracować bardziej efektywnie. Jego
+              zaletą jest przede wszystkim prostota i intuicyjność - łatwo dodać zadanie, przypisać je do odpowiedniej
+              kategorii i monitorować postępy.
+            </p>
+          </div>
+
+          <div class="testimonials__box" data-on-mobile="false">
+            <div class="testimonials__box-name">
+              <img src="./dist/img/testimonials-img6.png" alt="" class="user-image">
+              <div class="user-name">
+                <p class="name">Anna Sobczak</p>
+                <p class="job">Copywriter w GDev</p>
+              </div>
+            </div>
+            <p class="testimonials__box-text paragraph">
+              TaskFlow to moje ulubione narzędzie do zarządzania zadaniami. Funkcja rozpoznawania dat jest dla mnie
+              nieoceniona - dzięki temu nie przegapiam ważnych terminów, a moja praca jest bardziej skuteczna.
+            </p>
+          </div>
+          <div class="testimonials__box" data-on-mobile="false">
+            <div class="testimonials__box-name">
+              <img src="./dist/img/testimonials-img9.png" alt="" class="user-image">
+              <div class="user-name">
+                <p class="name">Limak Trelhe</p>
+                <p class="job">Menswear Department Manager w ModaMio</p>
+              </div>
+            </div>
+            <p class="testimonials__box-text paragraph">
+              TaskFlow to świetne narzędzie, które pomogło mi w lepszej organizacji mojego czasu. Dzięki niemu mogę
+              delegować zadania w moim zespole i śledzić postępy każdego z członków. Polecam każdemu, kto chce zwiększyć
+              swoją efektywność i produktywność!
+            </p>
+          </div>
+          <div class="testimonials__box" data-on-mobile="false">
+            <div class="testimonials__box-name">
+              <img src="./dist/img/testimonials-img8.png" alt="" class="user-image">
+              <div class="user-name">
+                <p class="name">Maciej Czajka</p>
+                <p class="job">Freelance Frontend Dev</p>
+              </div>
+            </div>
+            <p class="testimonials__box-text paragraph">
+              Cieszę się, że odkryłem TaskFlow - teraz mogę skutecznie zarządzać zadaniami i osiągać moje cele.
+            </p>
+          </div>
+
+        </div>
+        <div class="show-more">
+          <button class="show-more__btn">
+            <img src="./dist/img/show-more.svg" alt="">
+            <p>Pokaż więcej</p>
+          </button>
+        </div>
+      </div>
+    </section>
+    <section id="pricing" class="pricing section-padding">
+      <div class="wrapper">
+        <div class="section-title">
+          <h2 class="section-title__heading">Zaczynamy?</h2>
+          <p class="section-title__description paragraph">Zacznij swoją przygodę z TaskFlow i osiągnij maksymalną
+            produktywność!</p>
+        </div>
+        <div class="toggle-box">
+          <div class="pricing__toggle">
+            <p class="pricing__toggle-option">Miesięcznie</p>
+            <div class="pricing__toggle-button">
+              <input type="checkbox" id="check" checked>
+              <label for="check" class="switch"></label>
+            </div>
+            <p class="pricing__toggle-option">Rocznie</p>
+          </div>
+        </div>
+        <div class="pricing__boxes">
+          <div class="pricing__box">
+            <div class="pricing__box-up">
+              <p class="pricing__box-name">Bezpłatny</p>
+              <div class="pricing__box-price">
+                <p class="price" data-month-price="0" data-year-price="0">0<span>zł</span></p>
+                <p class="time">/msc</p>
+              </div>
+              <p class="pricing__box-description paragraph">Idealna opcja dla osób, które dopiero zaczynają swoją
+                przygodę
+                z naszą aplikacją</p>
+
+              <ul class="pricing__box-features">
+                <li class="pricing__box-feature">
+                  <img src="./dist/img/check.svg" alt="">
+                  <p class="text">dodawanie i zarządzanie zadaniami</p>
+                </li>
+                <li class="pricing__box-feature">
+                  <img src="./dist/img/check.svg" alt="">
+                  <p class="text">przypominanie o nadchodzących zadaniach</p>
+                </li>
+                <li class="pricing__box-feature">
+                  <img src="./dist/img/check.svg" alt="">
+                  <p class="text">prywatne zadania i projekty</p>
+                </li>
+                <li class="pricing__box-feature uncheck">
+                  <img src="./dist/img/uncheck.svg" alt="">
+                  <p class="text">wykres i analizy dotyczące wydajności</p>
+                </li>
+                <li class="pricing__box-feature uncheck">
+                  <img src="./dist/img/uncheck.svg" alt="">
+                  <p class="text">powiadomienia push na telefon</p>
+                </li>
+              </ul>
+            </div>
+            <a href="#" class="pricing__box-button">Wypróbuj za darmo</a>
+          </div>
+          <div class="pricing__box special">
+            <div class="pricing__box-up">
+              <p class="pricing__box-name">Profesjonalny</p>
+              <div class="pricing__box-price">
+                <p class="price" data-month-price="36" data-year-price="29">29<span>zł</span></p>
+                <p class="time">/msc</p>
+              </div>
+              <p class="pricing__box-description paragraph">Opcja dla ambitnych użytkowników, którzy chcą osiągnąć
+                jeszcze więcej</p>
+
+              <ul class="pricing__box-features">
+                <li class="pricing__box-feature">
+                  <img src="./dist/img/check-light.svg" alt="">
+                  <p class="text">możliwość tworzenia zespołów (maks 10 osób)</p>
+                </li>
+                <li class="pricing__box-feature">
+                  <img src="./dist/img/check-light.svg" alt="">
+                  <p class="text">powiadomienia push na telefon</p>
+                </li>
+                <li class="pricing__box-feature">
+                  <img src="./dist/img/check-light.svg" alt="">
+                  <p class="text">wykres i analizy dotyczące wydajności</p>
+                </li>
+                <li class="pricing__box-feature">
+                  <img src="./dist/img/check-light.svg" alt="">
+                  <p class="text">integracja z innymi narzędziami</p>
+                </li>
+
+                <li class="pricing__box-feature uncheck">
+                  <img src="./dist/img/uncheck.svg" alt="">
+                  <p class="text">analiza wydajności członków zespołu</p>
+                </li>
+              </ul>
+            </div>
+            <a href="#" class="pricing__box-button">Rozpocznij okres próbny</a>
+          </div>
+          <div class="pricing__box">
+            <div class="pricing__box-up">
+              <p class="pricing__box-name">Biznes</p>
+              <div class="pricing__box-price">
+                <p class="price" data-month-price="59" data-year-price="49">49<span>zł</span></p>
+                <p class="time">/msc</p>
+              </div>
+              <p class="pricing__box-description paragraph">Plan dostosowany do menedżerów, którzy chcą tworzyć bardziej
+                efektywne zespoły</p>
+
+              <ul class="pricing__box-features">
+                <li class="pricing__box-feature">
+                  <img src="./dist/img/check.svg" alt="">
+                  <p class="text">nieograniczona ilość osób w zespole</p>
+                </li>
+                <li class="pricing__box-feature">
+                  <img src="./dist/img/check.svg" alt="">
+                  <p class="text">analiza wydajności członków zespołu</p>
+                </li>
+                <li class="pricing__box-feature">
+                  <img src="./dist/img/check.svg" alt="">
+                  <p class="text">możliwość wykonywania zadań z poziomu emaila</p>
+                </li>
+                <li class="pricing__box-feature">
+                  <img src="./dist/img/check.svg" alt="">
+                  <p class="text">integracja z CRM</p>
+                </li>
+                <li class="pricing__box-feature">
+                  <img src="./dist/img/check.svg" alt="">
+                  <p class="text">możliwośc udostępniania projektu klientom</p>
+                </li>
+
+              </ul>
+            </div>
+            <a href="#" class="pricing__box-button">Rozpocznij okres próbny</a>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <section id="faqs" class="faqs section-padding">
+      <div class="wrapper">
+        <div class="section-title">
+          <h2 class="section-title__heading">FAQs</h2>
+          <p class="section-title__description paragraph">Poznaj odpowiedzi na pytana najczęściej zadawane przez
+            użytkowników TaskFlow</p>
+        </div>
+
+        <div class="faqs__boxes">
+          <div class="faqs__box">
+            <button class="faqs__box-question">
+              <p class="question paragraph">Czy można korzystać z TaskFlow bezpłatnie?</p>
+              <img src="./dist/img/plus.svg" alt="">
+            </button>
+            <div class="faqs__box-answer">
+              <p class="answer paragraph">Oczywiście, że tak! TaskFlow oferuje bezpłatny plan dla indywidualnych
+                użytkowników, więc możesz zacząć korzystać z aplikacji już teraz bez ponoszenia żadnych kosztów.</p>
+            </div>
+          </div>
+          <div class="faqs__box">
+            <button class="faqs__box-question">
+              <p class="question paragraph">Czy mogę korzystać z TaskFlow na różnych urządzeniach?</p>
+              <img src="./dist/img/plus.svg" alt="">
+            </button>
+            <div class="faqs__box-answer">
+              <p class="answer paragraph">Tak, TaskFlow działa na różnych urządzeniach i można synchronizować listy
+                zadań pomiędzy nimi.</p>
+            </div>
+          </div>
+          <div class="faqs__box">
+            <button class="faqs__box-question">
+              <p class="question paragraph">Czy TaskFlow oferuje integracje z innymi narzędziami?</p>
+              <img src="./dist/img/plus.svg" alt="">
+            </button>
+            <div class="faqs__box-answer">
+              <p class="answer paragraph">Tak, TaskFlow oferuje integracje z różnymi narzędziami, takimi jak Google
+                Calendar, Slack, Trello itp.</p>
+            </div>
+          </div>
+          <div class="faqs__box">
+            <button class="faqs__box-question">
+              <p class="question paragraph">Czy mogę udostępniać swoje listy zadań innym użytkownikom?</p>
+              <img src="./dist/img/plus.svg" alt="">
+            </button>
+            <div class="faqs__box-answer">
+              <p class="answer paragraph">Tak, plan Profesjonalny i Biznes umożliwiają udostępnianie list zadań innym
+                użytkownikom oraz ustalanie dla nich poziomu uprawnień.</p>
+            </div>
+          </div>
+          <div class="faqs__box">
+            <button class="faqs__box-question">
+              <p class="question paragraph">Czy TaskFlow umożliwia tworzenie powtarzalnych zadań?</p>
+              <img src="./dist/img/plus.svg" alt="">
+            </button>
+            <div class="faqs__box-answer">
+              <p class="answer paragraph">Tak, TaskFlow umożliwia tworzenie powtarzalnych zadań wg określonego
+                harmonogramu, np. codziennie, co tydzień, co miesiąc, dzięki czemu możesz wprowadzać i utrwalać swoje
+                nawyki</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer section-padding">
     <div class="wrapper">
-      <div class="users-boxes">
-        <div class="users-boxes__one">
-          <div class="user-box">
-            <img src="./dist/img/user-1.png " alt="" class="user-box__img">
+      <div class="footer-top">
+        <div class="footer__brand">
+          <div class="footer__brand-logo">
+            <img src="./dist/img/logo.svg" class="logo-icon">
+            <p class="logo-text">TaskFlow</p>
           </div>
-          <div class="user-box">
-            <img src="./dist/img/user-2.png " alt="" class="user-box__img">
+          <p class="footer__brand-quote paragraph">Tworzymy produkty, które ułatwiają życie ambitnym ludziom</p>
+        </div>
+        <div class="footer__links">
+          <div class="footer__links-box">
+            <h4 class="links-heading">Info</h4>
+            <div class="links">
+              <a href="#functions" class="link">Funkcje</a>
+              <a href="#testimonials" class="link">Opinie</a>
+              <a href="#pricing" class="link">Ceny</a>
+              <a href="#faqs" class="link">FAQs</a>
+            </div>
           </div>
-          <div class="user-box">
-            <img src="./dist/img/user-3.png " alt="" class="user-box__img">
+          <div class="footer__links-box">
+            <h4 class="links-heading">Sociale</h4>
+            <div class="links">
+              <a href="#" class="link">Instagram</a>
+              <a href="#" class="link">TikTok</a>
+              <a href="#" class="link">Facebook</a>
+            </div>
           </div>
-          <div class="user-box">
-            <img src="./dist/img/user-4.png " alt="" class="user-box__img">
-          </div>
-          <div class="user-box">
-            <img src="./dist/img/user-5.png " alt="" class="user-box__img">
+          <div class="footer__links-box">
+            <h4 class="links-heading">Aplikacja</h4>
+            <div class="links">
+              <a href="#" class="link">Zaloguj się</a>
+              <a href="#" class="link">Utwórz konto</a>
+            </div>
+
           </div>
         </div>
-        <div class="users-boxes__two">
-          <div class="user-box">
-            <img src="./dist/img/user-1.png " alt="" class="user-box__img">
-          </div>
-          <div class="user-box">
-            <img src="./dist/img/user-2.png " alt="" class="user-box__img">
-          </div>
-          <div class="user-box">
-            <img src="./dist/img/user-3.png " alt="" class="user-box__img">
-          </div>
-          <div class="user-box">
-            <img src="./dist/img/user-4.png " alt="" class="user-box__img">
-          </div>
-          <div class="user-box">
-            <img src="./dist/img/user-5.png " alt="" class="user-box__img">
-          </div>
+      </div>
+      <div class="footer-line"></div>
+      <div class="footer-bottom">
+        <p class="copyright">©2023 TasksFlow</p>
+        <div class="footer__socials">
+          <a href="#"><img src="./dist/img/twitter.svg" alt=""></a>
+          <a href="#"><img src="./dist/img/linkedin.svg" alt=""></a>
+          <a href="#"><img src="./dist/img/github.svg" alt=""></a>
         </div>
-
-
       </div>
     </div>
-  </section>
-
+  </footer>
   <script src="./dist/js/main.min.js"></script>
 </body>
 
